@@ -1,29 +1,9 @@
-/***************************************************************************************************
-  _______           _            ____          _             
- |__   __|         | |          |  _ \        | |            
-    | |  __ _  ___ | |_  _   _  | |_) | _   _ | |_  ___  ___ 
-    | | / _` |/ __|| __|| | | | |  _ < | | | || __|/ _ \/ __|
-    | || (_| |\__ \| |_ | |_| | | |_) || |_| || |_|  __/\__ \
-    |_| \__,_||___/ \__| \__, | |____/  \__, | \__|\___||___/
-                          __/ |          __/ |               
-                         |___/          |___/            
-Quickstart:   Tasty Bytes - Zero to Snowflake - Financial Governance
-Version:      v1
-Script:       tb_zts_financial_governance.sql         
-Create Date:  2023-03-17
-Author:       Jacob Kranzler
-Copyright(c): 2023 Snowflake Inc. All rights reserved.
-****************************************************************************************************
-SUMMARY OF CHANGES
-Date(yyyy-mm-dd)    Author              Comments
-------------------- ------------------- ------------------------------------------------------------
-2023-03-17          Jacob Kranzler      Initial Release
-***************************************************************************************************/
+
 
 /*----------------------------------------------------------------------------------
 Quickstart Section 3  - Creating a Warehouse
 
- As a Tasty Bytes Snowflake Administrator we have been tasked with gaining an 
+ As a Tasty Bytes Snowflake Administrator, we have been tasked with gaining an 
  understanding of the features Snowflake provides to help ensure proper 
  Financial Governance is in place before we begin querying and analyzing data.
  
@@ -177,3 +157,25 @@ ALTER ACCOUNT SET statement_timeout_in_seconds = default;
 ALTER ACCOUNT SET statement_queued_timeout_in_seconds = default; 
 DROP WAREHOUSE IF EXISTS tasty_test_wh;
 DROP RESOURCE MONITOR IF EXISTS tasty_test_rm; 
+
+/***************************************************************************************************
+  _______           _            ____          _             
+ |__   __|         | |          |  _ \        | |            
+    | |  __ _  ___ | |_  _   _  | |_) | _   _ | |_  ___  ___ 
+    | | / _` |/ __|| __|| | | | |  _ < | | | || __|/ _ \/ __|
+    | || (_| |\__ \| |_ | |_| | | |_) || |_| || |_|  __/\__ \
+    |_| \__,_||___/ \__| \__, | |____/  \__, | \__|\___||___/
+                          __/ |          __/ |               
+                         |___/          |___/            
+Quickstart:   Tasty Bytes - Zero to Snowflake - Financial Governance
+Version:      v1
+Script:       tb_zts_financial_governance.sql         
+Create Date:  2023-03-17
+Author:       Jacob Kranzler
+Copyright(c): 2023 Snowflake Inc. All rights reserved.
+****************************************************************************************************
+SUMMARY OF CHANGES
+Date(yyyy-mm-dd)    Author              Comments
+------------------- ------------------- ------------------------------------------------------------
+2023-03-17          Jacob Kranzler      Initial Release
+***************************************************************************************************/
